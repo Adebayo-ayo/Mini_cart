@@ -49,4 +49,6 @@ function deleteLast() {
 }
 
 
+
+
 // isolated function are function created inside javascript alone to represent a particular event that appears moe than once
