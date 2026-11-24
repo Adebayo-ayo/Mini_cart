@@ -48,6 +48,16 @@ function deleteLast() {
 
 }
 
+function removeItem(i) {
+  let check =confirm("Are you sure you want to remove the item?")
+  if (check) {
+cart.splice(i,1)
+    
+  }
+    else{
+    }
+  displayItem()
+}
 
 
 
